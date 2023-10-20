@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(44, 44, 44, 0.553);
+    background-image: url("img/pexels-tima-miroshnichenko-5199800.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 25, 25, 0.71);
+    justify-content: center;
+    z-index: -1; 
+}*/
+
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+}
+.navbar ul a:hover{
+    color:gold;
+    text-shadow: 0 1px 2px 2px;
+}
+
+.title h1 {
+    /* display: flex; */
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 85%;
+    margin: auto;
+    font-size: 25px;
+}
+
+.title a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.goal {
+    position: relative;
+    background-color: rgba(48, 41, 41, .25);
+    /* opacity: 100%; */
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+}
+
+.goal h1 {
+    text-align: center;
+    color: rgb(237, 234, 231);
+    padding: 10px 0;
+}
+
+.goal p {
+    text-align: center;
+    color: rgb(217, 217, 217);
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+
+/* for edit*/
+.container2 {
+    display: flex;
+
+}
+
+/* for edit*/
+.yt{
+    border: solid 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    margin-top: 10px;  
+}
+
+.yt h1{
+    text-align: center;
+    color: rgb(217, 217, 217);
+    padding: 10px 0;
+}
+
+.yt img{
+    width: 500px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.wmn {
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    margin-top: 10px;
+}
+
+.womens h1{
+    text-align: center;
+    color: rgb(217, 217, 217);
+    padding: 10px 0;
+}
+
+.womens img{
+    width: 500px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.men {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    margin-top: 10px;
+}
+
+.mens h1{
+    text-align: center;
+    color: rgb(217, 217, 217);
+    padding: 10px 0;
+}
+
+.mens img {
+    width: 500px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+
+[class*="col-"] {
+    float: right;
+    padding: 15px;
+}
+.col-1{
+    width: 33.33%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+     .container2 {
+        flex-direction: column;
+        width: 90%;
+    } 
+}

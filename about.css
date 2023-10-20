@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(44, 44, 44, 0.553);
+    background-image: url("img/pexels-tima-miroshnichenko-5199800.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 25, 25, 0.71);
+    justify-content: center;
+    z-index: -1; 
+}*/
+
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.navbar ul a:hover {
+    background-color: rgb(175, 175, 175);
+    color: gold;
+}
+
+.title h1 {
+    display: flex;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 85%;
+    margin: auto;
+    font-size: 25px;
+}
+
+.title a {
+    text-decoration: none;
+}
+.content {
+
+    background-color: rgba(53, 48, 48, 0.362);
+    opacity: 85%;
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+}
+
+.commitment {
+    align-items: center;
+    text-align: center;
+}
+
+.commitment h1 {
+    position: inherit;
+    color: rgb(237, 234, 231);
+    padding: 10px 0;
+}
+
+.commitment p {
+    position: inherit;
+    color: rgb(217, 217, 217);
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.commitment li {
+    list-style: none;
+    position: relative;
+}
+
+
+.holiness {
+    align-items: center;
+    text-align: center;
+}
+
+.holiness h1 {
+    /* position: inherit; */
+    color: rgb(237, 234, 231);
+    padding: 10px 0;
+}
+
+.holiness p {
+    /* position: inherit; */
+    color: rgb(217, 217, 217);
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.holiness li {
+    list-style: none;
+    text-align: center;
+}
+
+.relation {
+    align-items: center;
+    text-align: center;
+}
+
+.relation h1 {
+    position: inherit;
+    color: rgb(237, 234, 231);
+    padding: 10px 0;
+}
+
+.relation p {
+    position: inherit;
+    color: rgb(217, 217, 217);
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.realation li {
+    list-style: none;
+    text-align: center;
+}
